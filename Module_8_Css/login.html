@@ -1,0 +1,105 @@
+<html>
+
+<head>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(log.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .main {
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            border: 5px;
+        }
+        
+        .de {
+            padding: 20% 20% 20% 20%;
+            background: lightskyblue;
+            border-radius: 10%;
+        }
+        
+        .submit1 {
+            border-radius: 20px;
+            padding: 10px 10px;
+            background: gray;
+            color: white;
+            margin-top: 10px;
+            border: none;
+            outline: none;
+            margin-left: 100%;
+        }
+        
+        .submit2 {
+            border-radius: 20px;
+            padding: 10px 10px;
+            background: gray;
+            color: white;
+            margin-top: -35px;
+            border: none;
+            outline: none;
+            margin-left: 200px;
+        }
+        
+        img {
+            border-radius: 50%;
+            position: absolute;
+            margin-left: -40px;
+            margin-top: -60px;
+        }
+        
+        #name {
+            width: 200px;
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid red;
+            padding: 6px;
+            margin-bottom: 15px;
+        }
+        
+        #pswd {
+            width: 200px;
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid red;
+            padding: 6px;
+            margin-bottom: 15px;
+        }
+    </style>
+
+    <body>
+        <div class="main">
+            <center>
+
+                <form action="registration.html" method="post" id="reg"> </form>
+                <form action="login2.html" method="post" id="in">
+
+                    <img src="couple.jpg" width="100" heigth="100" />
+                    </b>
+                    </font>
+                    <div class="de">
+                        <input type="email" name="username" id="name" placeholder="username" required/><br>
+                        <br><br><input type="password" id="pswd" name="password" placeholder="password" minlength="8" maxlength="12" required/><br><br><br> &nbsp;&nbsp;
+                        <a href="forgotpassword.html">
+                            <font color="white"><b>Forgot Password</b></font>
+                        </a>
+                        <input type="submit" name="Sign_Up" value="Sign-Up" class="submit1" form="reg" />
+                        <input type="submit" name="Sign_In" value="Sign-In" class="submit2" form="in" />
+
+
+
+                </form>
+            </center>
+            </div>
+        </div>
+    </body>
+
+    </body>
+</head>
+
+</html>
